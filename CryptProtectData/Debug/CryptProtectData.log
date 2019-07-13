@@ -1,0 +1,3 @@
+﻿D:\VS2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CryptProtectData.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  run.cpp
+  CryptProtectData.vcxproj -> C:\Users\Joker\source\repos\CryptProtectData\Debug\CryptUnProtectData.exe
