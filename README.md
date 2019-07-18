@@ -1,4 +1,4 @@
-# Google-browser-login-information-extraction-and-password-cracking
+# Chrome_Decrypt
 Get the login information (URL, login name, password，etc.) automatically saved by Google Chrome and password cracking
 # 头文件CryptUnprotectData.h
 包含字符转换方法（U2G）和解密后密码处理方法（Password_Handle）。
