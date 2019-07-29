@@ -73,6 +73,10 @@
     <IncludePath>D:\SqLite3\sqlite-amalgamation-3280000\sqlite-amalgamation-3280000;$(IncludePath)</IncludePath>
     <LibraryPath>D:\SqLite3;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\SQLite3\sqlite-amalgamation-3290000\sqlite-amalgamation-3290000;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SQLite3\sqlite-dll-win64-x64-3290000;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -94,6 +98,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>Sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
